@@ -6,7 +6,7 @@ vim.opt.iskeyword:append("-")
 vim.opt.termguicolors = true
 -- vim.opt.background = "dark"
 vim.opt.wrap = true
-vim.opt.cursorline = false
+vim.opt.cursorline = true
 
 vim.opt.splitright = true
 vim.opt.splitbelow = true
