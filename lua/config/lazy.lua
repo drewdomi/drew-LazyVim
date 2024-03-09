@@ -7,15 +7,15 @@ end
 vim.opt.rtp:prepend(vim.env.LAZY or lazypath)
 
 -- Apply options for theme nightfly
-vim.g.nightflyTransparent = true
-vim.g.nightflyCursorColor = true
-vim.g.nightflyUnderlineMatchParen = true
+-- vim.g.moonflyTransparent = true
+-- vim.g.moonflyCursorColor = true
+-- vim.g.moonflyUnderlineMatchParen = true
 
 require("lazy").setup({
   spec = {
     -- add LazyVim and import its plugins
     { "LazyVim/LazyVim", import = "lazyvim.plugins", opts = {
-      colorscheme = "nightfly",
+      colorscheme = "moonfly",
     } },
     -- import any extras modules here
     { import = "lazyvim.plugins.extras.linting.eslint" },
