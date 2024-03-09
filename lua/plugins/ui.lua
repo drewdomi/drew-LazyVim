@@ -7,7 +7,9 @@ return {
           event = "notify",
           find = "No information available",
         },
-        opts = { skip = true },
+        opts = {
+          skip = true,
+        },
       })
       opts.presets.lsp_doc_border = true
     end,
@@ -16,6 +18,7 @@ return {
     "rcarriga/nvim-notify",
     opts = {
       timeout = 800,
+      background_colour = "#000000",
     },
   },
 }

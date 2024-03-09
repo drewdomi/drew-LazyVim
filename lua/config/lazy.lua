@@ -6,6 +6,7 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(vim.env.LAZY or lazypath)
 
+-- Apply options for theme nightfly
 vim.g.nightflyTransparent = true
 vim.g.nightflyCursorColor = true
 vim.g.nightflyUnderlineMatchParen = true
