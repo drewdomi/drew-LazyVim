@@ -7,9 +7,9 @@ end
 vim.opt.rtp:prepend(vim.env.LAZY or lazypath)
 
 -- Apply options for theme nightfly
--- vim.g.moonflyTransparent = true
--- vim.g.moonflyCursorColor = true
--- vim.g.moonflyUnderlineMatchParen = true
+vim.g.moonflyTransparent = true
+vim.g.moonflyCursorColor = true
+vim.g.moonflyUnderlineMatchParen = true
 
 require("lazy").setup({
   spec = {
