@@ -1,4 +1,4 @@
 return {
-  "gpanders/editorconfig.nvim",
-  name = "editorconfig",
+  "editorconfig/editorconfig-vim",
+  name = "editorconfig-vim",
 }
