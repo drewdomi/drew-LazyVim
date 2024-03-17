@@ -2,16 +2,16 @@
 
 ![Banner](assets/banner.jpg)
 
-## Plugins
+## 🔌 Plugins
 
 - [Code Runner](https://github.com/CRAG666/code_runner.nvim)
-- [Colorizer](https://github.com/norcalli/nvim-colorizer.lua)
+- [HEX Colorizer](https://github.com/norcalli/nvim-colorizer.lua)
 - [Colorscheme](https://github.com/bluz71/vim-moonfly-colors)
-- [Editorconfig](https://github.com/editorconfig/editorconfig-vim)
-- [MarkDown Preview](https://github.com/iamcco/markdown-preview.nvim)
+- [EditorConfig](https://github.com/editorconfig/editorconfig-vim)
+- [Markdown Preview](https://github.com/iamcco/markdown-preview.nvim)
 - [TypeScript Tools](https://github.com/pmizio/typescript-tools.nvim)
 
-## features
+## ⚡ Features
 
 - Run code keymaps
 - MDX support
