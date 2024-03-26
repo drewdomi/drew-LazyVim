@@ -1,0 +1,27 @@
+return {
+  "williamboman/mason.nvim",
+  dependencies = { "williamboman/mason.nvim" },
+  opts = {
+    ensure_installed = {
+      "angular-language-server",
+      "bash-language-server",
+      "clangd",
+      "css-lsp",
+      "docker-compose-language-service",
+      "dockerfile-language-server",
+      "eslint-lsp",
+      "hadolint",
+      "jdtls",
+      "json-lsp",
+      "lua-language-server",
+      "marksman",
+      "prettier",
+      "prisma-language-server",
+      "shfmt",
+      "sonarlint-language-server",
+      "stylua",
+      "tailwindcss-language-server",
+      "typescript-language-server",
+    },
+  },
+}

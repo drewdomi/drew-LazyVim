@@ -11,7 +11,7 @@ vim.api.nvim_create_autocmd({ "BufWinEnter" }, {
 })
 
 vim.api.nvim_create_autocmd({ "BufWinEnter" }, {
-  pattern = { "*.astro", "*.html", "*.css", "*.tsx", "*.jsx", "*.js", "*.mjs" },
+  pattern = { "*.astro", "*.html", "*.css", "*.scss", "*.sass", "*.tsx", "*.jsx", "*.js", "*.mjs" },
   desc = "Enable nvim-colorizer on load pattern files",
   command = "ColorizerToggle",
 })
