@@ -1,3 +1,13 @@
+require("nvim-web-devicons").setup({
+  override = {
+    astro = {
+      color = "#e44d26",
+      icon = "",
+      name = "Astro",
+    },
+  },
+})
+
 return {
   "nvim-neo-tree/neo-tree.nvim",
   opts = {

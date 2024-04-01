@@ -31,7 +31,7 @@ keymap.set("n", "<C-w><right>", "<C-w>>")
 keymap.set("n", "<C-w><up>", "<C-w>+")
 keymap.set("n", "<C-w><down>", "<C-w>-")
 
-keymap.set("i", "ii", "<Esc>")
+-- keymap.set("i", "ii", "<Esc>")
 
 -- code_runner
 keymap.set("n", "<Leader>r", ":RunCode<Return>", { desc = "Code Runner" })
