@@ -15,3 +15,9 @@ vim.api.nvim_create_autocmd({ "BufWinEnter" }, {
   desc = "Enable nvim-colorizer on load pattern files",
   command = "ColorizerToggle",
 })
+
+vim.api.nvim_create_autocmd({ "BufWinEnter" }, {
+  pattern = { "*.md", "*.mdx" },
+  desc = "Enable deadcolumn when enter in a Markdown file",
+  command = "setlocal colorcolumn=120",
+})
