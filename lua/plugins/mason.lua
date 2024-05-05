@@ -12,7 +12,6 @@ return {
       "json-lsp",
       "lua-language-server",
       "marksman",
-      "prettier",
       "prisma-language-server",
       "shfmt",
       "stylua",
