@@ -5,6 +5,7 @@ return {
       ensure_installed = {
         "angular",
         "astro",
+        "dockerfile",
         "css",
         "fish",
         "gitignore",
