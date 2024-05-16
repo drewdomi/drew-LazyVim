@@ -1,9 +1,9 @@
 return {
-  "Shatur/neovim-ayu",
+  "bluz71/vim-moonfly-colors",
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "ayu",
+      colorscheme = "moonfly",
     },
   },
 }
