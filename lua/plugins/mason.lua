@@ -17,6 +17,7 @@ return {
       "stylua",
       "tailwindcss-language-server",
       "typescript-language-server",
+      "gradle-language-server",
     },
   },
 }
