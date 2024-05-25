@@ -18,6 +18,7 @@ return {
       "tailwindcss-language-server",
       "typescript-language-server",
       "gradle-language-server",
+      "python-lsp-server",
     },
   },
 }
