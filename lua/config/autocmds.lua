@@ -21,3 +21,10 @@ vim.api.nvim_create_autocmd({ "BufWinEnter" }, {
   desc = "Enable deadcolumn when enter in a Markdown file",
   command = "setlocal colorcolumn=120",
 })
+
+-- vim.api.nvim_create_autocmd("BufWritePre", {
+--   pattern = "*.go",
+--   callback = function()
+--     require("go.format").goimport()
+--   end,
+-- })
